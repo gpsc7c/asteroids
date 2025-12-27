@@ -7,6 +7,8 @@ from logger import log_state
 
 def main():
     pygame.init()
+    fps_clock = pygame.time.Clock()
+    dt = 0
     print(f"Starting Asteroids with pygame version: VERSION{pygame.version.ver}")
     #print(f"Screen width: {constants.SCREEN_WIDTH}")
     #print(f"Screen height: {constants.SCREEN_HEIGHT}")
